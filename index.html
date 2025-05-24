@@ -15,7 +15,7 @@
         const initialScore = +paramScore
 
         const jsSet = {
-            score: 20,
+            score: isNaN(initialScore) ? 0 : initialScore,
             clientId: paramClientId || 'test1313'
         }
     </script>
